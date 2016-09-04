@@ -13,23 +13,23 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
-    background-color: #792626;
+    background-color: #ccc;
     color: #ccc;
 }
 
 header, footer {
-    background-color: #792626;
+    background-color: #333;
 }
 
 header {
     height: 50px;
     line-height: 50px;
-    border-bottom: 1px solid #7f2c36;
+    border-bottom: 1px solid #ccc;
 }
 
 section {
     padding: 40px 20px;
-    background-color: #4a4a4a;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAJ0lEQVQImWPw8vL6D8MBAVH/GZA5Xl5eEAEYx8vL6z8DMsfLy+s/APQJHkEkL3PaAAAAAElFTkSuQmCC);
 }
 
 footer {
@@ -37,7 +37,7 @@ footer {
     line-height: 90px;
     text-align: center;
     color: #eee;
-    border-top: 1px solid #7f2c36;
+    border-top: 1px solid #ccc;
 }
 
 footer p {
@@ -96,37 +96,17 @@ nav ul li a {
 
 /* ===== TILES ===== */
 
-.bloc-tiles {
-    margin: 40px auto;
+.grid {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 1080px;
-}
-
-.tile {
-    display: inline-block;
-    margin: 5px;
-    width: 350px;
-    height: 350px;
-    background-color: #654;
-}
-
-/* ===== TILES ===== */
-.grid {
-	position: relative;
-	clear: both;
-	margin: 0 auto;
-	padding: 1em 0 4em;
-	max-width: 1000px;
+    width: 1000px;
+	margin: 40px auto;
 	list-style: none;
-	text-align: center;
 }
 
-/* Common style */
 .grid figure {
 	position: relative;
-	float: left;
 	overflow: hidden;
 	margin: 10px 1%;
 	min-width: 320px;
@@ -134,20 +114,18 @@ nav ul li a {
 	max-height: 360px;
 	width: 48%;
 	height: auto;
-	background: #3085a3;
 	text-align: center;
 	cursor: pointer;
 }
 
 .grid figure img {
-	position: relative;
 	display: block;
 	min-height: 100%;
 	max-width: 100%;
-	opacity: 0.8;
 }
 
 .grid figure figcaption {
+    position: relative;
 	padding: 2em;
 	color: #fff;
 	text-transform: uppercase;
@@ -161,8 +139,7 @@ nav ul li a {
 	pointer-events: none;
 }
 
-.grid figure figcaption,
-.grid figure figcaption > a {
+.grid figure figcaption {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -170,17 +147,9 @@ nav ul li a {
 	height: 100%;
 }
 
-/* Anchor will cover the whole item by default */
-/* For some effects it will show as a button */
-.grid figure figcaption > a {
-	z-index: 1000;
-	text-indent: 200%;
-	white-space: nowrap;
-	font-size: 0;
-	opacity: 0;
-}
-
 .grid figure h2 {
+    background-color: rgba(0, 0, 0, .5);
+    padding: 10px 15px;
 	word-spacing: -0.15em;
 	font-weight: 300;
 }
@@ -189,14 +158,11 @@ nav ul li a {
 	font-weight: 800;
 }
 
-.grid figure h2,
-.grid figure p {
-	margin: 0;
-}
 
-.grid figure p {
-	letter-spacing: 1px;
-	font-size: 68.5%;
+.grid figure p2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 /* ===== TILES APOLLO ===== */
@@ -228,14 +194,15 @@ figure.effect-apollo figcaption::before {
 }
 
 figure.effect-apollo p {
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	margin: 3em;
-	padding: 0 1em;
-	max-width: 150px;
-	border-right: 4px solid #fff;
+    position: absolute;
+    right: 0;
+    bottom: 100px;
+    padding: 0 10px;
+    margin: 0 100px;
+	width: 150px;
+	border-right: 4px solid #eee;
 	text-align: right;
+    font-size: 14px;
 	opacity: 0;
 	-webkit-transition: opacity 0.35s;
 	transition: opacity 0.35s;
