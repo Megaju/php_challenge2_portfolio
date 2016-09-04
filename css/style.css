@@ -1,0 +1,94 @@
+/* ===== BASE ===== */
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #333;
+}
+
+header {
+    height: 50px;
+    line-height: 50px;
+    background-color: #ddd;
+    border-bottom: 1px solid #ccc;
+}
+
+section {
+    padding: 40px 20px;
+    background-color: #eee;
+}
+
+footer {
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+    color: #eee;
+    background-color: #333;
+}
+
+h1 {
+    display: inline;
+    text-transform: uppercase;
+    margin: 0 20px;
+}
+
+h1 a {
+    text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+/* ===== NAVIGATION ===== */
+
+nav {
+    height: 50px;
+    float: right;
+    width: 50%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+/* ====== CAROUSEL ====== */
+
+.carousel {
+    height: 250px;
+    background-color: burlywood;
+}
+
+/* ===== TILES ===== */
+
+.bloc-tiles {
+    margin: 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1080px;
+}
+
+.tile {
+    display: inline-block;
+    margin: 5px;
+    width: 350px;
+    height: 350px;
+    background-color: #654;
+}
