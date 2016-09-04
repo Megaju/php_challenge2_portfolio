@@ -12,51 +12,51 @@
         <div class="carousel"></div>
         <section>
             <h2>Projets</h2>
-            <div class="grid">
-                <figure class="effect-apollo"> <img src="img/img-test-1.jpg" alt="" />
+            <div class="grid"><a href="#">
+                <figure class="tile-effect"> <img src="img/img-test-1.jpg" alt="" />
+                    <figcaption>
+                        <h2>Titre de test<span>Bold</span></h2>
+                        <p>Description rapide du tile...</p>
+                    </figcaption>
+                </a></figure>
+                <figure class="tile-effect"> <img src="img/img-test-2.jpg" alt="" />
                     <figcaption>
                         <h2>Titre de test<span>Bold</span></h2>
                         <p>Description rapide du tile...</p>
                     </figcaption>
                 </figure>
-                <figure class="effect-apollo"> <img src="img/img-test-2.jpg" alt="" />
+                <figure class="tile-effect"> <img src="img/img-test-3.jpg" alt="" />
                     <figcaption>
                         <h2>Titre de test<span>Bold</span></h2>
                         <p>Description rapide du tile...</p>
                     </figcaption>
                 </figure>
-                <figure class="effect-apollo"> <img src="img/img-test-3.jpg" alt="" />
-                    <figcaption>
-                        <h2>Titre de test<span>Bold</span></h2>
-                        <p>Description rapide du tile...</p>
-                    </figcaption>
-                </figure>
-                <figure class="effect-apollo"> <img src="img/img-test-4.jpg" alt="" />
+                <figure class="tile-effect"> <img src="img/img-test-4.jpg" alt="" />
                     <figcaption>
                         <h2>Titre de test<span>Bold</span></h2>
                         <p>Description rapide du tile...</p>
                     </figcaption>
                 </figure>
                 
-                <figure class="effect-apollo"> <img src="img/img-test-1.jpg" alt="" />
+                <figure class="tile-effect"> <img src="img/img-test-1.jpg" alt="" />
                     <figcaption>
                         <h2>Titre de test<span>Bold</span></h2>
                         <p>Description rapide du tile...</p>
                     </figcaption>
                 </figure>
-                <figure class="effect-apollo"> <img src="img/img-test-2.jpg" alt="" />
+                <figure class="tile-effect"> <img src="img/img-test-2.jpg" alt="" />
                     <figcaption>
                         <h2>Titre de test<span>Bold</span></h2>
                         <p>Description rapide du tile...</p>
                     </figcaption>
                 </figure>
-                <figure class="effect-apollo"> <img src="img/img-test-3.jpg" alt="" />
+                <figure class="tile-effect"> <img src="img/img-test-3.jpg" alt="" />
                     <figcaption>
                         <h2>Titre de test<span>Bold</span></h2>
                         <p>Description rapide du tile...</p>
                     </figcaption>
                 </figure>
-                <figure class="effect-apollo"> <img src="img/img-test-4.jpg" alt="" />
+                <figure class="tile-effect"> <img src="img/img-test-4.jpg" alt="" />
                     <figcaption>
                         <h2>Titre de test<span>Bold</span></h2>
                         <p>Description rapide du tile...</p>

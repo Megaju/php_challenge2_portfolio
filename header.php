@@ -1,5 +1,5 @@
 <header>
-    <h1><a href="#">Julien Malle</a></h1>
+    <h1><a href="#">Julien Malle <span>- Portfolio</span></a></h1>
     <nav>
         <ul>
             <li><a href="#">CV</a></li>
