@@ -3,7 +3,8 @@
         <section>
             <h2>Projets</h2>
             <div class="grid">
-                <a href="#">
+               <!-- bloc -->
+                <a href="page.php">
                     <figure class="tile-effect"> <img src="img/img-test-1.jpg" alt="" />
                         <figcaption>
                             <h2>Titre de test<span>Bold</span></h2>
@@ -11,47 +12,68 @@
                         </figcaption>
                 </a>
                 </figure>
-                <figure class="tile-effect"> <img src="img/img-test-2.jpg" alt="" />
-                    <figcaption>
-                        <h2>Titre de test<span>Bold</span></h2>
-                        <p>Description rapide du tile...</p>
-                    </figcaption>
+                <!-- bloc -->
+                <a href="page.php">
+                    <figure class="tile-effect"> <img src="img/img-test-2.jpg" alt="" />
+                        <figcaption>
+                            <h2>Titre de test<span>Bold</span></h2>
+                            <p>Description rapide du tile...</p>
+                        </figcaption>
+                </a>
                 </figure>
-                <figure class="tile-effect"> <img src="img/img-test-3.jpg" alt="" />
-                    <figcaption>
-                        <h2>Titre de test<span>Bold</span></h2>
-                        <p>Description rapide du tile...</p>
-                    </figcaption>
+                <!-- bloc -->
+                <a href="page.php">
+                    <figure class="tile-effect"> <img src="img/img-test-3.jpg" alt="" />
+                        <figcaption>
+                            <h2>Titre de test<span>Bold</span></h2>
+                            <p>Description rapide du tile...</p>
+                        </figcaption>
+                </a>
                 </figure>
-                <figure class="tile-effect"> <img src="img/img-test-4.jpg" alt="" />
-                    <figcaption>
-                        <h2>Titre de test<span>Bold</span></h2>
-                        <p>Description rapide du tile...</p>
-                    </figcaption>
+                <!-- bloc -->
+                <a href="page.php">
+                    <figure class="tile-effect"> <img src="img/img-test-4.jpg" alt="" />
+                        <figcaption>
+                            <h2>Titre de test<span>Bold</span></h2>
+                            <p>Description rapide du tile...</p>
+                        </figcaption>
+                </a>
                 </figure>
-                <figure class="tile-effect"> <img src="img/img-test-1.jpg" alt="" />
-                    <figcaption>
-                        <h2>Titre de test<span>Bold</span></h2>
-                        <p>Description rapide du tile...</p>
-                    </figcaption>
+                <!-- bloc -->
+                <a href="page.php">
+                    <figure class="tile-effect"> <img src="img/img-test-1.jpg" alt="" />
+                        <figcaption>
+                            <h2>Titre de test<span>Bold</span></h2>
+                            <p>Description rapide du tile...</p>
+                        </figcaption>
+                </a>
                 </figure>
-                <figure class="tile-effect"> <img src="img/img-test-2.jpg" alt="" />
-                    <figcaption>
-                        <h2>Titre de test<span>Bold</span></h2>
-                        <p>Description rapide du tile...</p>
-                    </figcaption>
+                <!-- bloc -->
+                <a href="page.php">
+                    <figure class="tile-effect"> <img src="img/img-test-2.jpg" alt="" />
+                        <figcaption>
+                            <h2>Titre de test<span>Bold</span></h2>
+                            <p>Description rapide du tile...</p>
+                        </figcaption>
+                </a>
                 </figure>
-                <figure class="tile-effect"> <img src="img/img-test-3.jpg" alt="" />
-                    <figcaption>
-                        <h2>Titre de test<span>Bold</span></h2>
-                        <p>Description rapide du tile...</p>
-                    </figcaption>
+                <!-- bloc -->
+                <a href="page.php">
+                    <figure class="tile-effect"> <img src="img/img-test-3.jpg" alt="" />
+                        <figcaption>
+                            <h2>Titre de test<span>Bold</span></h2>
+                            <p>Description rapide du tile...</p>
+                        </figcaption>
+                </a>
                 </figure>
-                <figure class="tile-effect"> <img src="img/img-test-4.jpg" alt="" />
-                    <figcaption>
-                        <h2>Titre de test<span>Bold</span></h2>
-                        <p>Description rapide du tile...</p>
-                    </figcaption>
+                <!-- bloc -->
+                <a href="page.php">
+                    <figure class="tile-effect"> <img src="img/img-test-4.jpg" alt="" />
+                        <figcaption>
+                            <h2>Titre de test<span>Bold</span></h2>
+                            <p>Description rapide du tile...</p>
+                        </figcaption>
+                </a>
                 </figure>
             </div>
         </section>
