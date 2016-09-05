@@ -2,8 +2,8 @@
     <ol class="slides">
         <li class="current">
             <div class="description">
-                <h2>Tilted Content Slideshow</h2>
-                <p>This slider, as seen on the landing page of the <a href="http://www.thefwa.com/">FWA</a>, plays with 3D perspective and performs some interesting animations on the right-hand side images.</p>
+                <h2>Projet n1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis ad rem amet quia, deleniti, unde, consequatur perspiciatis impedit modi consequuntur debitis asperiores libero nostrum, magnam doloribus harum numquam aliquid. Itaque.</p>
             </div>
             <div class="tiltview col">
                 <a href="http://grovemade.com/"><img src="img/img-test-1.jpg" /></a>
@@ -12,24 +12,26 @@
         </li>
         <li>
             <div class="description">
-                <h2>CSS Animations</h2>
-                <p>We are using 12 different animations for showing and hiding the items of a slide. The animations are defined by randomly adding data-attributes called <code>data-effect-in</code> and <code>data-effect-out</code> for every slide. </p>
+                <h2>Projet n2</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis ad rem amet quia, deleniti, unde, consequatur perspiciatis impedit modi consequuntur debitis asperiores libero nostrum, magnam doloribus harum numquam aliquid. Itaque.</p>
             </div>
             <div class="tiltview row">
                 <a href="http://pexcil.com/"><img src="img/img-test-3.jpg" /></a>
                 <a href="http://foodsense.is/"><img src="img/img-test-4.jpg" /></a>
             </div>
         </li>
+        <!--
         <li>
             <div class="description">
-                <h2>Tilted Items</h2>
-                <p>The perspective view is achieved by adding a perspective value to the slide list item and tilting a division that contains the two screenshots.</p>
+                <h2>Projet n3</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis ad rem amet quia, deleniti, unde, consequatur perspiciatis impedit modi consequuntur debitis asperiores libero nostrum, magnam doloribus harum numquam aliquid. Itaque.</p>
             </div>
             <div class="tiltview col">
                 <a href="http://minimalmonkey.com/"><img src="img/img-test-1.jpg" /></a>
                 <a href="http://www.herschelsupply.com/"><img src="img/img-test-2.jpg" /></a>
             </div>
         </li>
+         
         <li>
             <div class="description">
                 <h2>Column or Row</h2>
@@ -40,6 +42,8 @@
                 <a href="https://tsovet.com/"><img src="img/img-test-4.jpg" /></a>
             </div>
         </li>
+        
+        
         <li>
             <div class="description">
                 <h2>Responsiveness</h2>
@@ -50,6 +54,7 @@
                 <a href="http://foodsense.is/"><img src="img/img-test-2.jpg" /></a>
             </div>
         </li>
+        -->
         <li>
             <div class="description">
                 <h2>Navigation</h2>
@@ -60,6 +65,7 @@
                 <a href="http://www.herschelsupply.com/"><img src="img/img-test-4.jpg" /></a>
             </div>
         </li>
+         
     </ol>
     
     <script src="js/classie.js"></script>
