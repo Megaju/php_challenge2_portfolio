@@ -19,9 +19,9 @@
         <nav class="top">
             <ul>
                 <li><a href="#"><i class="fa fa-file-text"></i> CV</a></li>
-                <li><a href="#"><i class="fa fa-th-large"></i> Portfolio</a></li>
-                <li><a href="#"><i class="fa fa-github"></i> Github</a></li>
-                <li><a href="#"><i class="fa fa-linkedin-square"></i> Linkedin</a></li>
+                <li><a href="index.php"><i class="fa fa-th-large"></i> Portfolio</a></li>
+                <li><a href="https://github.com/Megaju/"><i class="fa fa-github"></i> Github</a></li>
+                <li><a href="https://fr.linkedin.com/in/julien-malle-825822112"><i class="fa fa-linkedin-square"></i> Linkedin</a></li>
             </ul>
         </nav>
     </header>
