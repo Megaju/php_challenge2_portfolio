@@ -12,7 +12,7 @@ colors >
 body {
     padding: 0;
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poiret One', cursive;
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAJ0lEQVQImWPw8vL6D8MBAVH/GZA5Xl5eEAEYx8vL6z8DMsfLy+s/APQJHkEkL3PaAAAAAElFTkSuQmCC);
     color: #ccc;
 }
@@ -66,6 +66,7 @@ h1 a {
 h1 span {
     text-transform: none;
     font-weight: 400;
+    font-family: 'Lobster', cursive;
 }
 
 h2 {
@@ -97,6 +98,7 @@ nav.top ul li {
 
 nav.top ul li a {
     height: 50px;
+    font-weight: 700;
     display: inline-block;
     padding: 0 20px;
     color: #eee;
