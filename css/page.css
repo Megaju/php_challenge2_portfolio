@@ -1,0 +1,45 @@
+section {
+    width: 1000px;
+    min-height: 1000px;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+.flexbox {
+    display: flex;
+    border-top: 2px solid #ccc;
+}
+
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.illustration {
+    width: 500px;
+    height: 323px;
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background-image: url(../img/img-test-1.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.project-description p {
+    text-align: justify;
+    padding-top: 20px;
+    margin-right: 20px;
+    border-top: 1px solid #ccc;
+}
+
+.code-example {
+    padding: 10px;
+    max-height: 1000px;
+    overflow-y: auto;
+    
+    background-color: #333;
+    color: #ddd;
+}

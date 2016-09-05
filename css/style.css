@@ -13,7 +13,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
-    background-color: #ccc;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAJ0lEQVQImWPw8vL6D8MBAVH/GZA5Xl5eEAEYx8vL6z8DMsfLy+s/APQJHkEkL3PaAAAAAElFTkSuQmCC);
     color: #ccc;
 }
 
@@ -37,7 +37,7 @@ header {
 
 section {
     padding: 40px 20px;
-    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAJ0lEQVQImWPw8vL6D8MBAVH/GZA5Xl5eEAEYx8vL6z8DMsfLy+s/APQJHkEkL3PaAAAAAElFTkSuQmCC);
+    margin: auto;
 }
 
 footer {
