@@ -18,7 +18,7 @@ body {
 }
 
 header, footer {
-    background-color: #333;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAGUlEQVQImQXBAQEAAACCID75f1sBrJpq2AEpTwUvgVH+7AAAAABJRU5ErkJggg==);
 }
 
 header {
