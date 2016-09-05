@@ -66,15 +66,15 @@ h2 {
     margin: 0;
 }
 
-/* ===== NAVIGATION ===== */
+/* ===== nav.topIGATION ===== */
 
-nav {
+nav.top {
     height: 50px;
     float: right;
     width: 50%;
 }
 
-nav ul {
+nav.top ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -83,11 +83,11 @@ nav ul {
     text-transform: uppercase;
 }
 
-nav ul li {
+nav.top ul li {
     display: inline;
 }
 
-nav ul li a {
+nav.top ul li a {
     color: #ccc;
     text-decoration: none;
 }

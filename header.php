@@ -1,6 +1,6 @@
 <header>
     <h1><a href="#">Julien Malle <span>- Portfolio</span></a></h1>
-    <nav>
+    <nav class="top">
         <ul>
             <li><a href="#">CV</a></li>
             <li><a href="#">Portfolio</a></li>
