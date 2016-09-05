@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="css/slideshow.css">
+    <link rel="stylesheet" href="css/page.css">
     <script src="js/modernizr.custom.js"></script>
 </head>
 
@@ -22,3 +23,4 @@
             </ul>
         </nav>
     </header>
+    <div class="bloc-30px"></div>
