@@ -96,9 +96,20 @@ nav.top ul li {
 }
 
 nav.top ul li a {
-    color: #ccc;
+    height: 50px;
+    display: inline-block;
+    padding: 0 20px;
+    color: #eee;
     text-decoration: none;
+    transition: .6s;
 }
+
+nav.top ul li:hover a {
+    background-color: #ccc;
+    color: #111;
+    transition: .6s;
+}
+
 
 /* ====== CAROUSEL ====== */
 
