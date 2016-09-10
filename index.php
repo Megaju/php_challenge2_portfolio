@@ -26,7 +26,6 @@
         </nav>
     </header>
     <div class="bloc-30px"></div>
-
     <!-- INTEGRATION DU SLIDESHOW -->
     <div class="slideshow" id="slideshow">
         <ol class="slides">
@@ -95,15 +94,12 @@
                     <a href="http://www.herschelsupply.com/"><img src="img/img-test-4.jpg" /></a>
                 </div>
             </li>
-
         </ol>
-
         <script src="js/classie.js"></script>
         <script src="js/tiltSlider.js"></script>
         <script>
             new TiltSlider(document.getElementById('slideshow'));
         </script>
-
     </div>
     <!--END SLIDESHOW -->
     <section>
@@ -119,71 +115,70 @@
             </a>
             </figure>
             <!-- bloc -->
-            <a href="page.php">
-                <figure class="tile-effect"> <img src="img/img-test-2.jpg" alt="" />
+            <figure class="tile-effect"> <img src="img/img-test-2.jpg" alt="" />
+                <a href="page.php">
                     <figcaption>
                         <h2>Titre de test<span>Bold</span></h2>
                         <p>Description rapide du tile...</p>
                     </figcaption>
-            </a>
+                </a>
             </figure>
             <!-- bloc -->
-            <a href="page.php">
-                <figure class="tile-effect"> <img src="img/img-test-3.jpg" alt="" />
+            <figure class="tile-effect"> <img src="img/img-test-3.jpg" alt="" />
+                <a href="page.php">
                     <figcaption>
                         <h2>Titre de test<span>Bold</span></h2>
                         <p>Description rapide du tile...</p>
                     </figcaption>
-            </a>
+                </a>
             </figure>
             <!-- bloc -->
-            <a href="page.php">
-                <figure class="tile-effect"> <img src="img/img-test-4.jpg" alt="" />
+            <figure class="tile-effect"> <img src="img/img-test-4.jpg" alt="" />
+                <a href="page.php">
                     <figcaption>
                         <h2>Titre de test<span>Bold</span></h2>
                         <p>Description rapide du tile...</p>
                     </figcaption>
-            </a>
+                </a>
             </figure>
             <!-- bloc -->
-            <a href="page.php">
-                <figure class="tile-effect"> <img src="img/img-test-1.jpg" alt="" />
+            <figure class="tile-effect"> <img src="img/img-test-1.jpg" alt="" />
+                <a href="page.php">
                     <figcaption>
                         <h2>Titre de test<span>Bold</span></h2>
                         <p>Description rapide du tile...</p>
                     </figcaption>
-            </a>
+                </a>
             </figure>
             <!-- bloc -->
-            <a href="page.php">
-                <figure class="tile-effect"> <img src="img/img-test-2.jpg" alt="" />
+            <figure class="tile-effect"> <img src="img/img-test-2.jpg" alt="" />
+                <a href="page.php">
                     <figcaption>
                         <h2>Titre de test<span>Bold</span></h2>
                         <p>Description rapide du tile...</p>
                     </figcaption>
-            </a>
+                </a>
             </figure>
             <!-- bloc -->
-            <a href="page.php">
-                <figure class="tile-effect"> <img src="img/img-test-3.jpg" alt="" />
+            <figure class="tile-effect"> <img src="img/img-test-3.jpg" alt="" />
+                <a href="page.php">
                     <figcaption>
                         <h2>Titre de test<span>Bold</span></h2>
                         <p>Description rapide du tile...</p>
                     </figcaption>
-            </a>
+                </a>
             </figure>
             <!-- bloc -->
-            <a href="page.php">
-                <figure class="tile-effect"> <img src="img/img-test-4.jpg" alt="" />
+            <figure class="tile-effect"> <img src="img/img-test-4.jpg" alt="" />
+                <a href="page.php">
                     <figcaption>
                         <h2>Titre de test<span>Bold</span></h2>
                         <p>Description rapide du tile...</p>
                     </figcaption>
-            </a>
+                </a>
             </figure>
         </div>
     </section>
-    
     <footer>
         <p>Site créé par Julien Malle.</p>
     </footer>

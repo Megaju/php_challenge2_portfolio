@@ -198,6 +198,8 @@ figure.tile-effect {
 }
 
 figure.tile-effect img {
+    width: 100%;
+    height: auto;
 	opacity: 0.95;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
