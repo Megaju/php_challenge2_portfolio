@@ -5,6 +5,11 @@ colors >
     red2: #7f2c36
     grey: #4a4a4a
     grey2: #50505a
+
+    Nouvelles pour le test :
+        - 046380 bleu de base
+        - 002F2F bleu plus foncé
+        - 069ECC bleu plus clair
 */
 
 /* ===== BASE ===== */
@@ -75,7 +80,20 @@ h2 {
     margin: 0;
 }
 
-/* ===== nav.topIGATION ===== */
+h2.main {
+    font-size: 3em;
+}
+
+.fa {
+    color: #069ECC;
+}
+
+nav.top ul li:hover .fa {
+    color: #046380;
+}
+
+
+/* ===== TOP NAVIGATION ===== */
 
 nav.top {
     height: 50px;
@@ -194,7 +212,8 @@ nav.top ul li:hover a {
 /* ===== TILES APOLLO ===== */
 
 figure.tile-effect {
-	background: #3498db;
+	background: #046380; /*#3498db;*/
+    
 }
 
 figure.tile-effect img {

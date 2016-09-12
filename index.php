@@ -6,7 +6,7 @@
     <title>JULIEN MALLE - Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lobster|Poiret+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Poiret+One" rel="stylesheet"> 
     <link rel="stylesheet" href="css/slideshow.css">
     <link rel="stylesheet" href="css/page.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -22,6 +22,7 @@
                 <li><a href="index.php"><i class="fa fa-th-large"></i> Portfolio</a></li>
                 <li><a href="https://github.com/Megaju/"><i class="fa fa-github"></i> Github</a></li>
                 <li><a href="https://fr.linkedin.com/in/julien-malle-825822112"><i class="fa fa-linkedin-square"></i> Linkedin</a></li>
+                <li><a href="https://fr.linkedin.com/in/julien-malle-825822112"><i class="fa fa-envelope"></i> Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -103,7 +104,7 @@
     </div>
     <!--END SLIDESHOW -->
     <section>
-        <h2>Projets</h2>
+        <h2 class="main">Projets</h2>
         <div class="grid">
             <!-- bloc -->
             <a href="page.php">
