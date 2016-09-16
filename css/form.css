@@ -31,6 +31,18 @@ input, textarea {
     font-size: 1em;
 }
 
+.submit {
+    cursor: pointer;
+    transition: .6s;
+}
+
+.submit:hover {
+    background-image: none;
+    background-color: #622;
+    color: #eee;
+    transition: .3s;
+}
+
 textarea {
     height: 150px;
 }

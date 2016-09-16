@@ -10,7 +10,7 @@
     <input type="email" name="email">
     <label for="message">Message</label>
     <textarea name="message" id="message" cols="30" rows="10"></textarea>
-    <input type="submit" value="Envoyer">
+    <input type="submit" value="Envoyer" class="submit">
 </form>
 
 <?php include('footer.php'); ?>
