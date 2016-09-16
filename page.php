@@ -18,7 +18,7 @@
             </div>
         </div>
         <div class="code-example">
-            <?php include('code2.php'); ?>
+            <?php include('code.php'); ?>
         </div>
     </div>
 </section>
