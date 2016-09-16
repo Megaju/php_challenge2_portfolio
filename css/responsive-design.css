@@ -7,7 +7,12 @@
         display: block;
     }
     
-    .top {
+    nav.top {
+        width: 100%;
         display: block;
+    }
+    
+    .bloc-30px {
+        height: 60px;
     }
 }
