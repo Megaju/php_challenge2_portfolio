@@ -23,4 +23,4 @@
     </div>
 </section>
 
-<?phg include('footer.php'); ?>
+<?php include('footer.php'); ?>
