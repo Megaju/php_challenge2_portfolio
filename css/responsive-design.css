@@ -16,3 +16,17 @@
         height: 60px;
     }
 }
+
+@media (max-width: 1045px) {
+    #slideshow {
+        display: none;
+    } 
+    
+    .bloc-30px {
+        height: 90px;
+    }
+}
+
+@media (max-width: 420px) {
+        
+}
