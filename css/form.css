@@ -1,0 +1,36 @@
+form {
+    padding: 40px;
+    width: 50%;
+    margin: 100px auto;
+    background-color: rgba(0,0,0,.3);
+    border: 1px solid #222;
+}
+
+label, input {
+    display: block;
+}
+
+label {
+    font-weight: 700;
+    margin-bottom: 4px;
+    font-size: 1.5em;
+}
+
+label:first-letter {
+    color: #c22;
+}
+
+input, textarea {
+    width: 33%;
+    margin: 0 0 40px 0;
+    padding: 0 10px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #222;
+    color: #eee;
+    font-size: 1em;
+}
+
+textarea {
+    height: 150px;
+}

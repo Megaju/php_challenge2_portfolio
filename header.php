@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/slideshow.css">
     <link rel="stylesheet" href="css/page.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/form.css">
     <script src="js/modernizr.custom.js"></script>
 </head>
 
