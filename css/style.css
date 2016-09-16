@@ -12,6 +12,8 @@ colors >
         - 069ECC bleu plus clair
 */
 
+/* red - a22 --> red:hover - c22 */
+
 /* ===== BASE ===== */
 
 body {
@@ -68,10 +70,14 @@ h1 a {
     text-decoration: none;
 }
 
-h1 span {
+#t-portfolio {
     text-transform: none;
     font-weight: 400;
     font-family: 'Lobster', cursive;
+}
+
+.t-red {
+    color: #c22;
 }
 
 h2 {
@@ -85,11 +91,11 @@ h2.main {
 }
 
 .fa {
-    color: #069ECC;
+    color: #a22; /*#069ECC;*/
 }
 
 nav.top ul li:hover .fa {
-    color: #046380;
+    color: #c22; /*#046380;*/
 }
 
 
@@ -127,6 +133,7 @@ nav.top ul li a {
 nav.top ul li:hover a {
     background-color: #ccc;
     color: #111;
+    border-bottom: 1px solid #c22;
     transition: .6s;
 }
 
@@ -213,7 +220,6 @@ nav.top ul li:hover a {
 
 figure.tile-effect {
 	background: #046380; /*#3498db;*/
-    
 }
 
 figure.tile-effect img {
@@ -259,6 +265,11 @@ figure.tile-effect h2 {
 	text-align: left;
 }
 
+figure.tile-effect:hover {
+    outline: 1px solid #c22;
+    box-shadow: 0 0 20px #111;
+}
+
 figure.tile-effect:hover img {
 	opacity: 0.6;
 	-webkit-transform: scale3d(1,1,1);
@@ -272,6 +283,8 @@ figure.tile-effect:hover figcaption::before {
 
 figure.tile-effect:hover p {
 	opacity: 1;
+    padding: 5px 10px;
+    background-color: rgba(0,0,0,.7);
 	-webkit-transition-delay: 0.1s;
 	transition-delay: 0.1s;
 }

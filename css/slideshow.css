@@ -50,11 +50,20 @@
 }
 
 .slideshow > nav span:hover {
+    width: 26px;
+    height: 26px;
 	background-color: #333;
+    border: 2px solid #a22;
+}
+
+.slideshow > nav span.current:hover {
+    width: 30px;
+    height: 30px;
+    border: 0;
 }
 
 .slideshow > nav span.current {
-	background-color: #aaa;
+	background-color: #c22;
 }
 
 .description {
