@@ -1,4 +1,7 @@
 <?php include('header.php'); ?>
+<div class="return" onclick="javascript:location.href='index.php'">
+    <i class="fa fa-chevron-left"></i>    
+</div>
 
 <section>
     <h2>Nom du projet</h2>
@@ -20,6 +23,4 @@
     </div>
 </section>
 
-<footer>
-    <p>Site créé par Julien Malle.</p>
-</footer>
+<?phg include('footer.php'); ?>

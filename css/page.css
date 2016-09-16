@@ -64,3 +64,27 @@ section h2 {
     background-color: #333;
     color: #ddd;
 }
+
+.return {
+    position: fixed;
+    top: 70px;
+    left: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 12px;
+    border: 2px solid #eee;
+    background-color: #222;
+    text-align: center;
+    transition: .1s;
+}
+
+.return:hover {
+    top: 68px;
+    cursor: pointer;
+    transition: .1s;
+}
+
+.return i {
+    color: #eee;
+}
