@@ -74,6 +74,12 @@ h1 a {
     text-transform: none;
     font-weight: 400;
     font-family: 'Lobster', cursive;
+    transition: .3s;
+}
+
+#t-portfolio:hover {
+    color: #c22;
+    transition: .3s;
 }
 
 .t-red {
