@@ -13,10 +13,11 @@
     <link rel="stylesheet" href="css/form.css">
     <link rel="stylesheet" href="css/responsive-design.css">
     <script src="js/modernizr.custom.js"></script>
+    <script src="js/jquery-3.1.0.min.js"></script>
 </head>
 
 <body>
-    <header>
+    <header id="head">
         <h1><a href="index.php"><span class="t-red">J</span>ulien <span class="t-red">M</span>alle <span id="t-portfolio">- Portfolio</span></a></h1>
         <nav class="top">
             <ul>
