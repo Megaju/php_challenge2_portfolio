@@ -1,6 +1,7 @@
 <?php include('header.php'); ?>
 
 <form action="send.php" method="post">
+   <h2>Me contacter</h2>
     <label for="last-name">Prénom</label>
     <input type="text" name="last-name">
     <label for="first-name">Nom</label>
