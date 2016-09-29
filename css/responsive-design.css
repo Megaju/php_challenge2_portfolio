@@ -1,0 +1,32 @@
+@media (max-width: 1240px) {
+    header {
+        height: 100px;
+    }
+    
+    h1 {
+        display: block;
+    }
+    
+    nav.top {
+        width: 100%;
+        display: block;
+    }
+    
+    .bloc-30px {
+        height: 60px;
+    }
+    
+    .return {
+        display: none;
+    }
+}
+
+@media (max-width: 1045px) {
+    #slideshow {
+        display: none;
+    } 
+    
+    .bloc-30px {
+        height: 90px;
+    }
+}
