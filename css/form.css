@@ -16,15 +16,26 @@ label {
     font-size: 1.5em;
 }
 
+label:first-letter {
+    margin-right: 2px;
+    color: #00b0b0;
+}
+
 input, textarea {
-    width: 33%;
+    width: 100%;
     margin: 0 0 40px 0;
     padding: 0 10px;
     height: 40px;
     line-height: 40px;
     border: 1px solid #222;
-    color: #eee;
-    font-size: 1em;
+    color: #00b0b0;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+input:focus, textarea:focus {
+    border: 1px solid #00b0b0;
+    outline: 1px solid #004a4a;
 }
 
 .submit {
