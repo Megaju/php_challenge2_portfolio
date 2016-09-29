@@ -12,6 +12,8 @@ colors >
         - 069ECC bleu plus clair
 */
 
+/* NEW COLORS : #a22 --> #c22 (2 rouges normal --> hover) */
+
 /* ===== BASE ===== */
 
 body {
@@ -85,11 +87,11 @@ h2.main {
 }
 
 .fa {
-    color: #069ECC;
+    color: #a22;
 }
 
 nav.top ul li:hover .fa {
-    color: #046380;
+    color: #c22;
 }
 
 
@@ -98,7 +100,7 @@ nav.top ul li:hover .fa {
 nav.top {
     height: 50px;
     float: right;
-    width: 50%;
+    width: 70%;
 }
 
 nav.top ul {
