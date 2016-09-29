@@ -18,7 +18,7 @@
 
 <body>
     <header id="head">
-        <h1><a href="index.php"><span class="t-red">J</span>ulien <span class="t-red">M</span>alle <span id="t-portfolio">- Portfolio</span></a></h1>
+        <h1><a href="index.php">Julien Malle <span id="t-portfolio">- Portfolio</span></a></h1>
         <nav class="top">
             <ul>
                 <li><a href="#" target="_blank"><i class="fa fa-file-text"></i> CV</a></li>

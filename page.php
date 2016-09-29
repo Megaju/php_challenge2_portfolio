@@ -3,7 +3,7 @@
     <i class="fa fa-chevron-left"></i>    
 </div>
 
-<section>
+<section class="of-page">
     <h2>Nom du projet</h2>
     
     <div class="flexbox">

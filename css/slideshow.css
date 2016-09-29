@@ -39,31 +39,33 @@
 }
 
 .slideshow > nav span {
+    position: relative;
+    bottom: 50px;
 	display: inline-block;
-	width: 30px;
-	height: 30px;
+	width: 12px;
+	height: 12px;
     border-radius: 100%;
-	background-color: #ddd;
+	background-color: #333;
 	cursor: pointer;
 	margin: 0 3px;
 	transition: background-color 0.2s;
 }
 
 .slideshow > nav span:hover {
-    width: 26px;
-    height: 26px;
+    width: 10px;
+    height: 10px;
 	background-color: #333;
-    border: 2px solid #a22;
+    border: 1px solid #00b0b0;
 }
 
 .slideshow > nav span.current:hover {
-    width: 30px;
-    height: 30px;
+    width: 12px;
+    height: 12px;
     border: 0;
 }
 
 .slideshow > nav span.current {
-	background-color: #c22;
+	background-color: #00b0b0;
 }
 
 .description {

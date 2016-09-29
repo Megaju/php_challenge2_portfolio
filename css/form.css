@@ -16,10 +16,6 @@ label {
     font-size: 1.5em;
 }
 
-label:first-letter {
-    color: #c22;
-}
-
 input, textarea {
     width: 33%;
     margin: 0 0 40px 0;
@@ -38,7 +34,7 @@ input, textarea {
 
 .submit:hover {
     background-image: none;
-    background-color: #622;
+    background-color: #00b0b0;
     color: #eee;
     transition: .3s;
 }

@@ -42,16 +42,17 @@
     </div>
     <!--END SLIDESHOW -->
     <section>
-        <h2 class="main"><span class="t-red">P</span>rojets</h2>
+        <h2 class="main">Projets</h2>
         <div class="grid">
             <!-- bloc -->
-            <a href="page.php">
-                <figure class="tile-effect"> <img src="img/img-test-1.jpg" alt="" />
+            <figure class="tile-effect">
+                <a href="page.php">    
+                    <img src="img/img-test-1.jpg" alt="" />
                     <figcaption>
                         <h2>Titre de test<span>Bold</span></h2>
                         <p>Description rapide du tile...</p>
                     </figcaption>
-            </a>
+                </a>
             </figure>
             <!-- bloc -->
             <figure class="tile-effect"> <img src="img/img-test-2.jpg" alt="" />

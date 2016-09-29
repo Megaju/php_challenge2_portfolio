@@ -12,8 +12,36 @@ colors >
         - 069ECC bleu plus clair
 */
 
-/* NEW COLORS : #a22 --> #c22 (2 rouges normal --> hover) */
-/* red - a22 --> red:hover - c22 */
+/* NEW COLORS : #00b0b0 --> #00b0b0 (2 rouges normal --> hover) */
+/* red - 00b0b0 --> red:hover - 00b0b0 */
+
+/* COULEURS FINALES
+    + PALETTE DES GRIS
+        - #1a1a1a
+        - #464646
+        - #575757
+        - #878787
+    
+    + PALETTE DES BLEUS
+        - #004a4a
+        - #007272
+        - #009696
+        - #00b0b0
+        - #00cbcb
+        - #00f5f5
+    
+    + PALETTE DES ROUGES
+        - #68262c
+        - #b43a24
+        - #d95d45
+        - #c37169
+
+    + PALETTE DE ORANGES
+        - #833b07
+        - #b55007
+        - #d88805
+
+*/
 
 
 /* ===== BASE ===== */
@@ -22,12 +50,13 @@ body, input, textarea {
     padding: 0;
     margin: 0;
     font-family: 'Poiret One', cursive;
-    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAJ0lEQVQImWPw8vL6D8MBAVH/GZA5Xl5eEAEYx8vL6z8DMsfLy+s/APQJHkEkL3PaAAAAAElFTkSuQmCC);
+    box-sizing: border-box;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAKUlEQVQIW2O0srL+zwAFPDzcDIwwARDny5evEAEYB6SQ0c3N7T9IBgYA6iQP4H6/VYAAAAAASUVORK5CYII=);
     color: #ccc;
 }
 
 header, footer {
-    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAGUlEQVQImQXBAQEAAACCID75f1sBrJpq2AEpTwUvgVH+7AAAAABJRU5ErkJggg==);
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAGklEQVQIW2OUkpL6r6Ojw8Do5ub2/8qVKwwAK1wGIVySKugAAAAASUVORK5CYII=);
 }
 
 header {
@@ -37,7 +66,7 @@ header {
     height: 50px;
     line-height: 50px;
     border-bottom: 1px solid #ccc;
-    box-shadow: 0 0 6px #000;
+    box-shadow: 0 0 6px #333344;
 }
 
 .bloc-30px {
@@ -45,7 +74,8 @@ header {
 }
 
 section {
-    padding: 40px 20px;
+    width: auto;
+    padding: 0 20px 40px 20px;
     margin: auto;
 }
 
@@ -73,6 +103,7 @@ h1 a {
 }
 
 #t-portfolio {
+    color: #009696;
     text-transform: none;
     font-weight: 400;
     font-family: 'Lobster', cursive;
@@ -80,12 +111,8 @@ h1 a {
 }
 
 #t-portfolio:hover {
-    color: #c22;
+    color: #00cbcb;
     transition: .3s;
-}
-
-.t-red {
-    color: #c22;
 }
 
 h2 {
@@ -99,12 +126,12 @@ h2.main {
 }
 
 .fa {
-    color: #a22;
+    color: #00b0b0;
 }
 
 
 nav.top ul li:hover .fa {
-    color: #c22; /*#046380;*/
+    color: #00cbcb; /*#046380;*/
 }
 
 /* ===== TOP NAVIGATION ===== */
@@ -117,7 +144,7 @@ nav.top {
 
 nav.top ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: center;
     height: 50px;
     margin: 0;
@@ -141,7 +168,7 @@ nav.top ul li a {
 nav.top ul li:hover a {
     background-color: #ccc;
     color: #111;
-    border-bottom: 1px solid #c22;
+    border-bottom: 1px solid #00b0b0;
     transition: .6s;
 }
 
@@ -158,8 +185,6 @@ nav.top ul li:hover a {
 .grid {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    width: 1000px;
 	margin: 40px auto;
 	list-style: none;
 }
@@ -167,21 +192,15 @@ nav.top ul li:hover a {
 .grid figure {
 	position: relative;
 	overflow: hidden;
-	margin: 10px 1%;
+	margin: 10px 1%;/*
 	min-width: 320px;
-	max-width: 480px;
-	max-height: 360px;
+	max-width: 480px;*/
+	max-height: 420px;
 	width: 48%;
 	height: auto;
-	text-align: center;
 	cursor: pointer;
 }
 
-.grid figure img {
-	display: block;
-	min-height: 100%;
-	max-width: 100%;
-}
 
 .grid figure figcaption {
     position: relative;
@@ -227,13 +246,13 @@ nav.top ul li:hover a {
 /* ===== TILES APOLLO ===== */
 
 figure.tile-effect {
+    position: relative;
 	background: #046380; /*#3498db;*/
+    overflow: hidden;
 }
 
 figure.tile-effect img {
-    width: 100%;
-    height: auto;
-	opacity: 0.95;
+    opacity: 1;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 	-webkit-transform: scale3d(1.05,1.05,1);
@@ -274,8 +293,8 @@ figure.tile-effect h2 {
 }
 
 figure.tile-effect:hover {
-    outline: 1px solid #c22;
-    box-shadow: 0 0 20px #111;
+    outline: 1px solid #00cbcb;
+    box-shadow: 0 0 20px #333344;
 }
 
 figure.tile-effect:hover img {
