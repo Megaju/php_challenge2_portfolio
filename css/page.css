@@ -2,6 +2,10 @@ h2 {
     font-size: 2em;
 }
 
+h2.mt50 {
+    margin-top: 50px;
+}
+
 section.of-page {
     width: 1000px;
     min-height: 1000px;
@@ -46,7 +50,7 @@ section h2 {
 } 
 
 .code-example {
-    max-height: 1000px;
+    max-height: 750px;
     overflow-y: auto;
     font-size: .7em;
     background-color: #333;

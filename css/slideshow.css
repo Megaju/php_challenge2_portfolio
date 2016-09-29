@@ -55,7 +55,7 @@
     width: 10px;
     height: 10px;
 	background-color: #333;
-    border: 1px solid #00b0b0;
+    border: 1px solid #d88805;
 }
 
 .slideshow > nav span.current:hover {
@@ -65,7 +65,7 @@
 }
 
 .slideshow > nav span.current {
-	background-color: #00b0b0;
+	background-color: #d88805;
 }
 
 .description {

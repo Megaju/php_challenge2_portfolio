@@ -50,7 +50,7 @@
                     <img src="img/img-test-1.jpg" alt="" />
                     <figcaption>
                         <h2>Titre de test<span>Bold</span></h2>
-                        <p>Description rapide du tile...</p>
+                        <p>Description rapide du tile... mais on va faire long pour voir jusqu'où ça tiens. En fait j'veux qu'ça pète pour voir. . . Bon bah en fait ça pète pas.</p>
                     </figcaption>
                 </a>
             </figure>

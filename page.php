@@ -4,7 +4,7 @@
 </div>
 
 <section class="of-page">
-    <h2>Nom du projet</h2>
+    <h2 class="mt50">Nom du projet</h2>
     
     <div class="flexbox">
         <div class="flex-wrap">

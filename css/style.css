@@ -39,7 +39,7 @@ colors >
     + PALETTE DE ORANGES
         - #833b07
         - #b55007
-        - #d88805
+        - #ff7500
 
 */
 
@@ -51,7 +51,7 @@ body, input, textarea {
     margin: 0;
     font-family: 'Poiret One', cursive;
     box-sizing: border-box;
-    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAKUlEQVQIW2O0srL+zwAFPDzcDIwwARDny5evEAEYB6SQ0c3N7T9IBgYA6iQP4H6/VYAAAAAASUVORK5CYII=);
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAKUlEQVQIW2NUUlL6zwAFgoKCDIwwARDn/fv3EAEYB6SQ0djY+D9IBgYAwBUOzFFGUA0AAAAASUVORK5CYII=);
     color: #ccc;
 }
 
@@ -123,7 +123,7 @@ h2 {
 
 h2:first-letter {
     margin-right: 2px;
-    color: #00b0b0;
+    color: #ff7500;
 }
 
 h2.main {
@@ -197,9 +197,7 @@ nav.top ul li:hover a {
 .grid figure {
 	position: relative;
 	overflow: hidden;
-	margin: 10px 1%;/*
-	min-width: 320px;
-	max-width: 480px;*/
+	margin: 10px 1%;
 	max-height: 420px;
 	width: 48%;
 	height: auto;
@@ -299,7 +297,7 @@ figure.tile-effect h2 {
 }
 
 figure.tile-effect:hover {
-    outline: 1px solid #00cbcb;
+    outline: 1px solid #ff7500;
     box-shadow: 0 0 20px #333344;
 }
 
